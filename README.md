@@ -67,7 +67,3 @@ Event Link: https://pkic.org/events/2025/pqc-conference-kuala-lumpur-my/
 Participated in the national launch of Malaysia’s PQC Migration Plan and demonstrated the SB-PQC Sandbox at Trustgate’s booth.  
 Event Link: https://ice-pqc.upm.edu.my/
 
----
-
-## Repository Structure
-
