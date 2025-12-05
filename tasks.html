@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasks & Projects | MSC Trustgate Internship</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="inner-page">
+  <!-- NAVBAR -->
+  <header class="navbar" role="navigation" aria-label="Main navigation">
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#hero">Home</a>
+      <a href="index.html#company">Company</a>
+      <a href="index.html#tasks-projects">Tasks & Projects</a>
+      <a href="index.html#skills">Skills</a>
+    </nav>
+  </header>
+
+  <main id="top" class="page-wrapper">
+    <!-- PAGE TITLE -->
+    <section class="section compact">
+      <div class="section-title reveal">
+        <h2>Tasks &amp; Projects</h2>
+        <div class="section-underline"></div>
+        <p>These are the main tasks and projects I was involved in during my internship.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 1: PQC Sandbox (Left: image, Right: text) -->
+    <section class="section">
+      <div class="alt-row reveal">
+        <div class="alt-image">
+          <img src="assets/sb-pqc.png" alt="PQC Sandbox" />
+        </div>
+        <div class="alt-text">
+          <h3>PQC Sandbox</h3>
+          <p>
+            I worked on a PQC sandbox for The National PQC Migration Plan on issuing and testing post-quantum digital certificates
+            . The PQC Sandbox is a simulated Certificate Authority (CA) environment designed to test PQC algorithms without affecting production systems. It implements full PKI components including Root CA, Intermediate CA, certificate profiles, and signing workflows.
+          <p>Link to sandbox: <a href="https://digitalid2.msctrustgate.com/sb-pqc/" target="_blank" rel="noopener">https://digitalid2.msctrustgate.com/sb-pqc/</a>
+          </p>
+          <ul>
+            <li>Issued PQC certificates using KAZ-SIGN (Malaysia's PQC Algorithm by UPM) and ML-DSA.</li>
+            <li>Simulated root, intermediate and end-entity certificate chains.</li>
+            <li>Verified signing and verification flows for PQC algorithms.</li>
+          </ul>
+          <div class="chips">
+            <span class="chip">Java, MVC, Spring Boot, C++</span>
+            <span class="chip">KAZ-SIGN, ML-DSA and SLH-DSA</span>
+            <span class="chip">PQC Sandbox</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Benchmarking (Left: text, Right: image) -->
+    <section class="section alt">
+      <div class="alt-row reverse reveal">
+        <div class="alt-image">
+          <img src="assets/img1.png" alt="PQC Benchmarking" />
+        </div>
+        <div class="alt-text">
+          <h3>Benchmarking PQC Algorithm</h3>
+          <p>
+            I was responsible for evaluating the performance of the PQC algorithms
+            used inside the sandbox, mainly focusing on key generation, signing, verification, and output sizes.
+          </p>
+          <ul>
+            <li>Ran key generation, signing and verification timing tests.</li>
+            <li>Compared key sizes and signature sizes across algorithms.</li>
+            <li>Documented algorithm differences between KAZ-SIGN and ML-DSA.</li>
+            <li>Summarised the results into simple tables and charts for reporting.</li>
+          </ul>
+          <div class="chips">
+            <span class="chip">Performance</span>
+            <span class="chip">Reports</span>
+            <span class="chip">PQC Algorithms</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: PQC Conference (Left: image, Right: text) -->
+    <section class="section">
+      <div class="alt-row reveal">
+        <div class="alt-image">
+          <img src="assets/img1.png" alt="PQC Conference Exposure" />
+        </div>
+        <div class="alt-text">
+          <h3>PQC Conference Exposure </h3>
+          <p>
+            PQC Conference Exposure — PKI Consortium (Kuala Lumpur, 2025)
+            <p>I attended the international PQC Conference organised by the PKI Consortium, where global experts discussed the transition to Post-Quantum Cryptography.
+          </p>
+          <ul>
+            <li>Joined technical sessions on PQC algorithms and migration strategies.</li>
+            <li>Observed real demos from PKI vendors and security hardware providers.</li>
+            <li>Engaged with experts on hybrid certificates and PQC deployment challenges.</li>
+          </ul>
+           <p></p><a href="https://pkic.org/events/2025/pqc-conference-kuala-lumpur-my/" target="_blank" rel="noopener">https://pkic.org/events/2025/pqc-conference-kuala-lumpur-my/</a></p>
+         
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECTION 4: Certificates (Left: text, Right: image) -->
+    <section class="section alt">
+      <div class="alt-row reverse reveal">
+        <div class="alt-image">
+          <img src="assets/img1.png" alt="Certificates & Profiles" />
+        </div>
+        <div class="alt-text">
+          <h3>Certificates &amp; Profiles</h3>
+          <p>
+           This section involves configuring certificate structures used in the sandbox,
+           following the PQC certificate issuance requirements. It focuses on mapping PQC algorithms into real PKI profiles while maintaining
+           compatibility with RFC 5280.
+          </p>
+          <ul>
+            <li>Creating X.509 profiles for Document Signing, TLS, and Client certificates</li>
+            <li>Configured extensions such as EKU and basic constraints.</li>
+            <li>Helped align PQC certificate profiles with existing PKI practice.</li>
+          </ul>
+          <div class="chips">
+            <span class="chip">X.509</span>
+            <span class="chip">PEM</span>
+            <span class="chip">PKCS#12</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+     <!-- SECTION 4: ICE-PQC Event (Left: image, Right: text) -->
+    <section class="section">
+      <div class="alt-row reveal">
+        <div class="alt-image">
+          <img src="assets/img1.png" alt="ICE-PQC 2025 UPM" />
+        </div>
+        <div class="alt-text">
+          <h3>ICE-PQC 2025 @ UPM — National PQC Migration Plan Launch</h3>
+          <p>
+            I participated in ICE-PQC 2025, hosted at Universiti Putra Malaysia (UPM),
+            where Malaysia officially launched its National PQC Migration Plan.
+            I supported Trustgate's booth and demonstrated the SB-PQC Sandbox to visitors.
+          </p>
+          <ul>
+            <li>Showcased the sandbox as a functional PQC Certificate Authority.</li>
+            <li>Engaged with industry partners, researchers, and vendors.</li>
+            <li>Discussed how organisations are integrating PQC algorithms into products and PKI ecosystems.</li>
+            <li>Gained valuable networking experience and insights into Malaysia’s PQC roadmap.</li>
+          </ul>
+          <p>
+            <a href="https://ice-pqc.upm.edu.my/" target="_blank" rel="noopener">
+              Event Link
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: HSM Integration (Left: text, Right: image) -->
+    <section class="section alt">
+      <div class="alt-row reverse reveal">
+        <div class="alt-image">
+          <img src="assets/img1.png" alt="TGCA Integration" />
+        </div>
+        <div class="alt-text">
+          <h3>PQC Integration with TGCA and HSM</h3>
+          <p>
+            I was also exposed to how PQC can be integrated into a Hardware Security Module (HSM) and the company's CA Engine itself.
+          </p>
+          <ul>
+            <li>Observed how TGCA connects to the HSM using PKCS#11.</li>
+            <li>Tested ML-DSA signing where the private key is stored in the HSM.</li>
+            <li>Understood the role of HSM in securing keys in a production CA.</li>
+          </ul>
+          <div class="chips">
+            <span class="chip">HSM</span>
+            <span class="chip">PKCS#11</span>
+            <span class="chip">TGCA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back button -->
+    <section class="section compact">
+      <div class="more-center reveal">
+        <a href="index.html#hero" class="btn ghost">Back to Main Page</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Internship Portfolio · Nurul Syafiqah · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internship Portfolio | MSC Trustgate</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="home-page">
+  <!-- NAVBAR -->
+  <header class="navbar" role="navigation" aria-label="Main navigation">
+    
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#hero" class="active">Home</a>
+      <a href="#company">Company</a>
+      <a href="#tasks-projects">Tasks & Projects</a>
+      <a href="#skills">Skills</a>
+      
+    </nav>
+  </header>
+
+  <!-- Page wrapper ensures navbar does not overlap content -->
+  <div class="page-wrapper">
+    <!-- HERO -->
+    <section id="hero" class="hero" aria-label="Hero">
+      <div class="hero-left reveal">
+        
+        <h1>Hi, I’m <span class="accent">Syafiqah</span></h1>
+       
+        <p class="hero-desc">
+          I worked on a Post-Quantum Cryptography (PQC) sandbox, software/system development, PQC digital certificates
+          and HSM integration at MSC Trustgate.
+        </p>
+        <div class="hero-buttons">
+          <a href="#company" class="btn ghost">About Company</a>
+          <a href="#tasks-projects" class="btn primary">Tasks & Projects</a>
+        </div>
+      </div>
+
+  
+
+        <!-- optional illustration placeholder -->
+        <img src="assets/hero-card.jpg" alt="" class="hero-illustration" />
+      </div>
+    </section>
+
+      <!-- COMPANY INTRO -->
+      <section id="company" class="section company-section">
+
+        <div class="logo-wrapper reveal">
+          <img src="assets/trustgate-logo.png" alt="MSC Trustgate logo" class="logo-centered" />
+        </div>
+
+        <div class="section-title reveal">
+          <h2 class="left-text">Company Introduction</h2>
+          <div class="section-underline"></div>
+        
+        </div>
+
+        <!-- TWO COLUMN: TEXT (LEFT) + VIDEO (RIGHT) -->
+        <div class="two-column">
+
+          <!-- LEFT COLUMN: Full Company Intro -->
+          <div class="reveal">
+            <h3>Licensed Certification Authority</h3>
+            <p>
+              Established in 1999, MSC Trustgate.com Sdn Bhd is licensed by the 
+              Malaysian Communications and Multimedia Commission (MCMC) under 
+              the Digital Signatures Act 1997 to issue and manage digital certificates 
+              and digital identities based on Public Key Infrastructure (PKI) for the Malaysian market.
+            </p>
+
+            <p>
+              Our core business involves issuing digital certificates and providing 
+              digital signatures that secure e-government systems, public services, 
+              and the nation’s critical infrastructure.
+            </p>
+
+            <h4>Our Solutions</h4>
+            <ul>
+              <li>Web Authentication (TLS/SSL)</li>
+              <li>Digital Identity / Digital Certificate</li>
+              <li>Digital Date &amp; Timestamping</li>
+              <li>Digital Seal</li>
+              <li>Digital Signature</li>
+            </ul>
+          </div>
+
+          <!-- RIGHT COLUMN: Trustgate Video -->
+          <div class="reveal delay-1 video-container">
+            <iframe 
+              src="https://www.youtube.com/embed/rBNpZ_mlHL0" 
+              frameborder="0" 
+              allowfullscreen>
+            </iframe>
+          </div>
+
+        </div>
+      </section>
+
+    <!-- TASKS + PROJECTS (summary) -->
+    <section id="tasks-projects" class="section alt compact">
+      <div class="section-title reveal">
+        <h2>Tasks & Project Involvement</h2>
+        <div class="section-underline"></div>
+        <p>Quick highlights</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card reveal">
+          <h3>PQC Sandbox</h3>
+          <p>Issue &amp; test PQC certificates.</p>
+          <div class="chips">
+            <span class="chip">KAZ-SIGN</span>
+            <span class="chip">ML-DSA</span>
+            <span class="chip">Spring Boot</span>
+          </div>
+        </article>
+
+        <article class="card reveal delay-1">
+          <h3>Benchmarking</h3>
+          <p>Keygen, sign, verify timing.</p>
+          <div class="chips">
+            <span class="chip">Performance</span>
+            <span class="chip">Reports</span>
+          </div>
+        </article>
+
+        <article class="card reveal delay-2">
+          <h3>Certificates</h3>
+          <p>X.509, PEM, P12 profiles.</p>
+          <div class="chips">
+            <span class="chip">PKCS#12</span>
+            <span class="chip">Extensions</span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <h3>TGCA Integration</h3>
+          <p>Integrate PQC algorithms with TGCA and HSM.</p>
+          <div class="chips">
+            <span class="chip">HSM</span>
+            <span class="chip">TGCA</span>
+          </div>
+        </article>
+
+        <article class="card reveal delay-1">
+          <h3>Testing & Docs</h3>
+          <p>SRS, SDS, test plans.</p>
+          <div class="chips">
+            <span class="chip">PTPKM</span>
+            <span class="chip">NACSA</span>
+          </div>
+        </article>
+
+        <article class="card reveal delay-2">
+          <h3>Events</h3>
+          <p>ICE-PQC &amp; PQC Conf 2025.</p>
+          <div class="chips">
+            <span class="chip">Conferences</span>
+            <span class="chip">Booth & Demo</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="more-center reveal" style="margin-top: 18px">
+        <a href="tasks.html" class="btn secondary">See Full Tasks &amp; Projects Page</a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-title reveal">
+        <h2>Knowledge &amp; Skills Gained</h2>
+        <div class="section-underline"></div>
+        <p>Key takeaways</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skills-column reveal">
+          <h3>Technical Skills</h3>
+          <ul class="pill-list">
+            <li>PQC: ML-DSA, SLH-DSA, KAZ-SIGN</li>
+            <li>Hybrid RSA + PQC certificates</li>
+            <li>Java &amp; Spring Boot</li>
+            <li>Bouncy Castle / BCPQC</li>
+            <li>X.509, PKCS#12, CRL, EKU</li>
+            <li>REST API &amp; performance testing</li>
+            <li>HSM &amp; PKCS#11 (ML-DSA)</li>
+          </ul>
+        </div>
+        <div class="skills-column reveal delay-1">
+          <h3>Soft Skills</h3>
+          <ul class="pill-list">
+            <li>Technical writing &amp; reporting</li>
+            <li>Debugging &amp; problem solving</li>
+            <li>Working with deadlines &amp; milestones</li>
+            <li>Team &amp; stakeholder communication</li>
+            <li>Presenting technical demos</li>
+            <li>Industry networking (events, booths)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+      <p>Internship Portfolio · Nurul Syafiqah · 2025</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
